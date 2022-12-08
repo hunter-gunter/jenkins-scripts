@@ -7,4 +7,4 @@ apt update
 apt install jenkins -y
 service jenkins start
 password=$(head -n 1 /var/lib/jenkins/secrets/initialAdminPassword) 
-echo $password
+echo Le mot de passe admin temporaire est : $password
