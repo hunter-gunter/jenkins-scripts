@@ -8,3 +8,11 @@ apt install jenkins -y
 service jenkins start
 password=$(head -n 1 /var/lib/jenkins/secrets/initialAdminPassword) 
 echo Le mot de passe admin temporaire est : $password
+
+################################
+#Pour les futurs étapes#
+
+#wget http://localhost:8080/jnlpJars/jenkins-cli.jar
+#java -jar jenkins-cli.jar java -jar jenkins-cli.jar -s http://127.0.0.1:8080 -auth admin:$password install-plugin configuration-as-code
+
+################################
