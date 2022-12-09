@@ -1,6 +1,6 @@
 # jenkins-scripts
 
-Ce script permet d'installer de façon automatique Jenkins sur Ubunutu.
+Ce script permet d'installer de façon automatique Jenkins sur Ubuntu.
 
 Pour récuperer le scipt, faites la commande "wget https://raw.githubusercontent.com/hunter-gunter/jenkins-scripts/main/script.sh"
 
